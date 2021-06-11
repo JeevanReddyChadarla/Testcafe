@@ -1,9 +1,11 @@
 
 function App() {
   return (
-    <div className="App">
-      <h1>Sample</h1>
-    </div>
+    <select id="place">
+        <option>Hyderabad</option>
+        <option>Chennai</option>
+        <option>Bangalore</option>
+    </select>
   );
 }
 
